@@ -1,6 +1,11 @@
 <script setup>
 // import { RouterLink, RouterView } from 'vue-router'
 // import HelloWorld from './components/HelloWorld.vue'
+import { getList } from '@/apis/testapi'
+getList().then(res=>{
+  console.log(res);
+  
+})
 </script>
 
 <template>
