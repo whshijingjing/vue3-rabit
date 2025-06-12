@@ -1,18 +1,24 @@
-@forward 'element-plus/theme-chalk/src/common/var.scss' with($colors: (
-    // 主色
+@forward 'element-plus/theme-chalk/src/common/var.scss' with (
+  $colors: (
     'primary': (
-        'base': #27ba9b,
+      // 主色
+      'base': #27ba9b,
     ),
     'success': (
-        'base': #1dc779,
+      // 成功色
+      'base': #1dc779,
     ),
     'warning': (
-        'base': #ffb302,
+      // 警告色
+      'base': #ffb302,
     ),
     'danger': (
-        'base': #e26237,
+      // 危险色
+      'base': #e26237,
     ),
     'error': (
-        'base':#cf4444,
-    )
-))
+      // 错误色
+      'base': #cf4444,
+    ),
+  )
+);
